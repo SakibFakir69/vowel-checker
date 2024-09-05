@@ -28,17 +28,13 @@ const vowelCounter = (text) => {
 
 
 button.addEventListener("click",()=>{
-    input.value=" ";
 
-    if(input.value===" "){
-        alert("Please Enter Your Value")
-    }else{
-        console.log("ok")
-    }
-    
+
+
     vowelCounter(input.value);
 
     console.log(input.value);
+    input.value = " ";
     console.log("vowel counter tiggred")
 })
 
